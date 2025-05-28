@@ -45,3 +45,29 @@ To set up the project locally, follow these steps:
    Ensure you have Python 3.8+ installed. Then, install required packages:
    ```bash
    pip install -r requirements.txt
+
+## Results
+
+Here is a sample output of the recommendation system:
+
+**Input**: "The Hobbit"
+
+**Top 5 Recommended Books**:
+1. The Fellowship of the Ring
+2. The Return of the King
+3. The Two Towers
+4. A Game of Thrones
+5. The Chronicles of Narnia
+
+These results are generated using TF-IDF vectorization of tag metadata followed by cosine similarity computation. The system finds books with high textual similarity in tags to the selected title.
+
+## Contact
+- Author: Anamika Pati
+- Email: anamika24300@iiitnr.edu.in
+- GitHub: [anamikapati](https://github.com/anamikapati)
+
+## Acknowledgements
+
+- [Goodbooks-10K Dataset](https://www.kaggle.com/zygmuntz/goodbooks-10k) – for providing a rich dataset of book metadata and user ratings.
+- [scikit-learn](https://scikit-learn.org/) – for tools such as TF-IDF vectorizer and cosine similarity functions.
+- The open-source Python community and forums like Stack Overflow for continuous support and learning.
